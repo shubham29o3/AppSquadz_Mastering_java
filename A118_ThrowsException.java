@@ -1,6 +1,6 @@
 import java.io.IOException;
 
-public class A117_ThrowsException {
+public class A118_ThrowsException {
     static void show() throws IOException{
         throw new IOException("This is throws example");
     }

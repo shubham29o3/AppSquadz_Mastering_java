@@ -1,4 +1,4 @@
-public class A115_ThrowExample {
+public class A116_ThrowExample {
     int age;
     void getAge(int age){
         if(age<18){
@@ -15,6 +15,6 @@ public class A115_ThrowExample {
     }
 
     public static void main(String[] args) {
-        new A115_ThrowExample().getAge(10);
+        new A116_ThrowExample().getAge(10);
     }
 }

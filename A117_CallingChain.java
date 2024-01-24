@@ -1,4 +1,4 @@
-public class A116_CallingChain {
+public class A117_CallingChain {
     void show(){
         int x = 10/0;
         //System.out.println("show");
@@ -14,7 +14,7 @@ public class A116_CallingChain {
 
     public static void main(String[] args) {
         try{
-            new A116_CallingChain().xyz();
+            new A117_CallingChain().xyz();
         }
         catch (Exception e){
             System.out.println(e);
