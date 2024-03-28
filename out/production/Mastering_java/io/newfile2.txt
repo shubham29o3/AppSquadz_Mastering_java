@@ -1,0 +1,1 @@
+Gemini is what researchers call a large language model, or L.L.M., a mathematical system that can learn skills by analyzing vast amounts of data, including books, computer programs and online chatter. By identifying patterns in all that text, an L.L.M. can learn to generate text on its own. That means it can write poetry, generate computer code and even carry on a conversation.

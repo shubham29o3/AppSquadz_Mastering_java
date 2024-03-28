@@ -1,0 +1,8 @@
+HEllo-------------------- Abstracts Methods :-
+An abstract method is the method which does'nt have any body. Abstract method is declared with keyword abstract and semicolon( ; ) in place of method body.
+signature : public abstract void <method name>();
+eX: public abstract void getDetails();
+It is the responsibility of subclass to provide implementataion to abstract method define in abstract class.
+
+
+// Can we create Construction in Abstract class
