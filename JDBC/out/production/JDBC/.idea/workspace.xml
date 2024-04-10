@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f54c5c3a-4750-4e2d-a1a1-d23bfd29c40f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ArrayList/CopyOnWriteArrayList/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList/CopyOnWriteArrayList/.idea/CopyOnWriteArrayList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList/CopyOnWriteArrayList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList/CopyOnWriteArrayList/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList/CopyOnWriteArrayList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList/CopyOnWriteArrayList/ArrayListProb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestRetrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestRetrive2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vector/LinkedList1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vector/MyVectorNewCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vector/MyVectorSubRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A113_Finally.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A114_Automatic_Resource_Handeling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A116_ThrowExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Input-Output.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Seminar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Threading.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Virtual DOS.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2ergCNaxq66YHrmW1bUCXApdIX2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TestRetrive2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-e1d2075fd9a7-b4911678" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f54c5c3a-4750-4e2d-a1a1-d23bfd29c40f" name="Changes" comment="" />
+      <created>1712667985499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712667985499</updated>
+    </task>
+    <servers />
+  </component>
+</project>
