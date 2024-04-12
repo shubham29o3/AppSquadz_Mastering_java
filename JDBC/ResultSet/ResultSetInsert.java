@@ -13,7 +13,8 @@ public class ResultSetInsert {
                 System.out.println(rs.getInt(2));
                 System.out.println("  ");
             }
-        }catch (Exception e){
+        }
+        catch (Exception e){
             System.out.println(e);
         }
     }
