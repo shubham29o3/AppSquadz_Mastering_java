@@ -1,3 +1,11 @@
+//create or replace procedure recins88(id in emp65.id%type,name in emp65.name%type) as
+//begin
+//insert into emp65 values(id,name);
+//end;
+///
+
+
+
 import java.sql.*;
 import java.io.*;
 public class Callp {
