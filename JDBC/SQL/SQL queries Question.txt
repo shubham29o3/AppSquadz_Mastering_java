@@ -247,6 +247,6 @@ Q32.} Write an SQL query to show top n (say 10) records of the table.
 			WHERE ROWNUM<=10;
 			
 			
-Now , we should have a solid foundation in intermediate SQL , let's take a look at some more advance SQL
+Now , we should have a solid foundation in intermediate SQL , let's take a look at some more advanced SQL
 query questions. These questions will require us to use complex SQL syntax and concepts , such as nested 
 queries, joins, unions and intersects.
