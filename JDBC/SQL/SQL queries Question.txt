@@ -250,3 +250,16 @@ Q32.} Write an SQL query to show top n (say 10) records of the table.
 Now , we should have a solid foundation in intermediate SQL , let's take a look at some more advanced SQL
 query questions. These questions will require us to use complex SQL syntax and concepts , such as nested 
 queries, joins, unions and intersects.
+
+Q33.} Write an SQL query to determine the nth(say n=5) highest salary from a table.
+
+		Select SALARY FROM Worker ORDER BY SALARY DESC LIMIT n-1,1;
+		Select SALARY FROM Worker ORDER BY SALARY DESC LIMIT 4,1;
+		
+		Select TOP 1 SALARY
+		FROM(
+		Select DISTINCT TOP n SALARY
+		FROM Worker
+		ORDER BY SALARYDESC
+		)
+		ORDER BY SALARY ASC;
