@@ -308,3 +308,18 @@ Q37.} Write an SQL query to show one row twice in the results from a table.
 		Select FIRST_NAME, DEPARTMENT from Worker W where W.DEPARTMENT='HR'
 		union all
 		Select FIRST_NAME, DEPARTMENT from Worker W1 where W1.DEPARTMENT='HR';
+		
+Q38.} Write an SQL query to fetch intersecting recods of two tables.
+
+		(Select * from Worker)
+		INTERSECT 
+		(Select * from WorkerClone);
+		
+		SELECT w.*
+		FROM Worker w
+		INNER JOIN WorkerClone wc ON w.WORKER_ID = wc.WORKER_ID;
+
+Q39.} Write an SQL query to fetch the first 50% of records from a table.
+
+		Select * from Worker
+		WHERE WORKER_ID <= (Select count(WORKER_ID)/2 from Worker);
