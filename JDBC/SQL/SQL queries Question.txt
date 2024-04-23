@@ -203,3 +203,50 @@ Q28.} Write an SQL query to clone a new table from another table.
 
 		-- Then, insert the data into the newly created WorkerClone table
 		INSERT INTO WorkerClone SELECT * FROM Worker;
+		
+		
+Q29.} Write an SQL query to fetch intersecting records of two table.
+
+					//(SELECT * FROM Worker)
+					//INTERSECT
+					//(SELECT * FROM WorkerClone);
+					
+		SELECT w.*
+		FROM Worker w
+		INNER JOIN WorkerClone wc ON w.WORKER_ID = wc.WORKER_ID;
+		
+Q30.} Write an SQL query to show records from one table that another table does not have.
+
+		(Select * from Worker) MINUS (Select * from Title);
+		
+Q31.} Write an SQL query to show the current date and time.
+
+			MySQL query returns current date 
+			Select CURDATE();
+			
+			MySQL query returns current date and time
+			Select NOW();
+			
+			SQL query returns the current date and time
+			Select getdate();
+			
+			Oracle query returns date  and time
+			Select SYSDATE FROM DUAL;
+			
+
+Q32.} Write an SQL query to show top n (say 10) records of the table.
+
+			query returns n records using the LIMIT method:
+			Select * FROM Worker ORDER BY SALARY DESC LIMIT 10;
+			
+			SQL Server query to return top n recods using the TOP command:
+			Select TOP 10 * FROM Worker ORDER BY SALARY DESC;
+			
+			Oracle query to return the top n records with the help of ROWNUM:
+			Select * FROM (Select * FROM Worker ORDER BY SALARY DESC)
+			WHERE ROWNUM<=10;
+			
+			
+Now , we should have a solid foundation in intermediate SQL , let's take a look at some more advance SQL
+query questions. These questions will require us to use complex SQL syntax and concepts , such as nested 
+queries, joins, unions and intersects.
