@@ -264,7 +264,7 @@ Q33.} Write an SQL query to determine the nth(say n=5) highest salary from a tab
 		)
 		ORDER BY SALARY ASC;
 		
-Q34.} Write an SQL query to detrmine the 5th highest salary without using the TOP or limit method.
+Q34.} Write an SQL query to determine the 5th highest salary without using the TOP or limit method.
 
 		Select SALARY
 		FROM Worker W1
@@ -290,3 +290,11 @@ Q34.} Write an SQL query to detrmine the 5th highest salary without using the TO
 		FROM Worker
 		ORDER BY SALARY DESC
 		LIMIT 4, 1;
+
+Q35.} Write an SQL query to fetch the list of employees with the same salary.
+
+		Select distinct W.WORKER_ID, W.FIRST_NAME, W.SALARY
+		from Worker W, Worker W1
+		where W.SALARY = W1.SALARY
+		and W.WORKER_ID != W1.WORKER_ID;
+		
