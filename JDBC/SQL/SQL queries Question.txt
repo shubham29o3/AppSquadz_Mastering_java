@@ -260,6 +260,33 @@ Q33.} Write an SQL query to determine the nth(say n=5) highest salary from a tab
 		FROM(
 		Select DISTINCT TOP n SALARY
 		FROM Worker
-		ORDER BY SALARYDESC
+		ORDER BY SALARY DESC
 		)
 		ORDER BY SALARY ASC;
+		
+Q34.} Write an SQL query to detrmine the 5th highest salary without using the TOP or limit method.
+
+		Select SALARY
+		FROM Worker W1
+		WHERE 4 = ( 
+		Select COUNT (DISTINCT(W2.SALARY))
+		FROM Worker W2
+		WHERE W2.SALARY >= W1.SALARY
+		);
+		
+		Use the following method to find the nth highest salary without using TOP or limit.
+		
+		Select SALARY
+		FROM Worker W1
+		WHERE n-1=(
+		Select COUNT(DISTINCT(W2.SALARY))
+		FROM Worker W2
+		WHERE W2.SALARY >= W1.SALARY
+		);
+		
+		
+		WORKING:
+		SELECT DISTINCT(SALARY)
+		FROM Worker
+		ORDER BY SALARY DESC
+		LIMIT 4, 1;
