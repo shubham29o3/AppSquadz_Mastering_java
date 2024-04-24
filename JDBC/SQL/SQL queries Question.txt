@@ -1,3 +1,7 @@
+Drive Link:-
+ https://docs.google.com/document/d/1_Xw0esOuSIynKDPS0tnvhzLQpiFiVZ3-aSu9DNzO1-Y/edit?usp=sharing
+
+
 CREATE DATABASE codesquadz;
 SHOW DATABASEs;
 USE codesquadz;
@@ -373,6 +377,6 @@ Q49.} Write an SQL query to fetch department along with the total salaries paid 
 
 		Select DEPARTMENT, sum(SALARY) from Worker GROUP BY DEPARTMENT;
 		
-Q50.] Write an SQL query to fetch the names of workers who earn the highest salary.
+Q50.} Write an SQL query to fetch the names of workers who earn the highest salary.
 
 		Select FIRST_NAME,SALARY from Worker WHERE SALARY=(Select max(SALARY) from Worker);
